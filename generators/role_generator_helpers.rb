@@ -48,7 +48,7 @@ EOF
     ) && puts("Added RoleRequirementTestHelper include to #{app_filename}")
   end
 
-  def add_dependencies_to_application_controller_rb
+  def add_dependencies_to_application_rb
     app_filename = "#{RAILS_ROOT}/app/controllers/application_controller.rb"
     
     auth_system_content = <<EOF
